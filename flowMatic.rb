@@ -18,5 +18,5 @@ appear, along with the current flow rate.
 appear, along with the current flow rate.
 =end
 
-flowmatic_on=
-water_available=
+flowmatic_on=true
+water_available=true
