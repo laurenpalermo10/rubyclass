@@ -18,5 +18,25 @@ appear, along with the current flow rate.
 appear, along with the current flow rate.
 =end
 
-flowmatic_on=
-water_available=
+flowmatic_on=true
+water_available=true
+flow_rate=60
+
+
+puts "lets see if the water is going to flow"
+if flowmatic_on&&water_available
+  puts "Your water is flowing"
+elsif !flowmatic_on
+  puts "your water is not running!"
+elsif !water_available
+  puts "there is no water to run!"
+else
+  "The flowmatic_on is off and the water is not running."
+end
+
+
+if flow_rate<60
+    puts "Warning, flow rate is below 60!"
+else
+  puts "the water can not run"
+end
