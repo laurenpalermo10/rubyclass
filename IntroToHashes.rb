@@ -33,3 +33,6 @@ diner_menu.each do |category,items|
       items.each {|item| puts item}
       end
     end
+=begin
+This loop makes a list of what breakfast options the diner is surving and what drinks they are surving. 
+=end
